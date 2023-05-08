@@ -1,0 +1,140 @@
+<!DOCTYPE html >
+<!--  Website template by freewebsitetemplates.com  -->
+<html>
+
+<head>
+	<title>Pet Shop</title>
+	<meta  charset=iso-8859-1" />
+	<link href="css/style.css" rel="stylesheet" type="text/css" />
+	<!--[if IE 6]>
+		<link href="css/ie6.css" rel="stylesheet" type="text/css" />
+	<![endif]-->
+	<!--[if IE 7]>
+        <link href="css/ie7.css" rel="stylesheet" type="text/css" />  
+	<![endif]-->
+</head>
+
+<body>
+
+	  
+			<div id="header">
+	           		<a href="index.php" id="logo"><img src="images/logo.gif" width="310" height="114" alt="" title=""></a>
+					<ul class="navigation">
+						<li ><a href="index.php">Home</a></li>
+						<li class="active"><a href="petmart.html">PetMart</a></li>
+                        <li class="active"><a href="cart.php">Cart</a></li>
+                        <li><a href="logout.php">Logout</a></li>
+					</ul>
+			</div>
+			
+			<div id="body">
+			<br>
+			<br>
+			       <div id="content">		
+				        <div class="content">
+						
+								<ul>
+									<h1>Your Cart</h1>
+									<li>
+										<a href="index.php"><img src="images/pedigree.jpg" width="140" height="250" alt="Pet Shop" title="Pet Shop"></a>
+										    <h2><a href="#">Pedigree</a></h2>
+										    <span><p>Pedigree Petfoods is a subsidiary of the American group Mars, Incorporated specializing in pet food, with factories in England at Melton Mowbray and Birstall, Leeds; and offices at McLean, Virginia.</p></span>
+									</li>
+									<li>
+										<a href="index.php"><img src="images/nutrichunks.jpg" width="140" height="250" alt="Pet Shop" title="Pet Shop"></a>
+										<h2><a href="#">Nutri Chunks</a></h2>
+											<span><p>It's essential to feed your puppy the correct dog food. It significantly impacts their development and growth, particularly in puppies with a particular breed. The Nutri Chunks Hi-Protein Puppy is the best option for your puppies to feed for their first year.</a></span>
+									</li>
+									<li>
+										<a href="index.php"><img src="images/dogibeef.png" width="140" height="240" alt="Pet Shop" title="Pet Shop"></a>
+										<h2><a href="#">Dogibeef</a></h2>
+										    <span><a href="petmart.html"> Dogibeef is intended for adult dogs and has an all-natural beef taste and aroma that your dogs are sure to love. It also contains highly digestible ...</a></span>
+									</li>
+									<li>
+										<a href="index.php"><img src="images/royalcanin.png" width="140" height="240" alt="Pet Shop" title="Pet Shop"></a>
+										<h2><a href="#">Royal Canin</a></h2>
+										    <span><a href="petmart.html">Founded by a veterinarian, Royal Canin has over 40 years experience in health nutrition. Woof woof woof woof woof woof woof woof woof woof.
+									</li>
+									<li>
+										<a href="index.php"><img src="images/snr.jpg" width="140" height="250" alt="Pet Shop" title="Pet Shop"></a>
+										<h2><a href="#">S&R Beefy Dog Food</a></h2>
+										<span><a href="petmart.html"> Beef is a high-quality protein source that provides essential amino acids.
+											 Those nutrients help support strong muscles and provide energy.</a></span>
+									</li>
+									<li>
+										<a href="index.php"><img src="images/vitality.jpg" width="140" height="240" alt="Pet Shop" title="Pet Shop"></a>
+										<h2><a href="#">Vitality</a></h2>
+										<span><a href="petmart.html">Vitality is hypoallergenic. It uses only Australian lamb and beef as main sources of protein. 
+											It does not use any meat from poultry products that may cause allergies to some dogs.</a></span>
+									</li>
+
+								</ul>
+								</div>
+						</div>
+					<!--
+					    <div id="sidebar">
+								
+                              								
+								   <a href="petmart.html"><img src="images/discount.jpg" width="300" height="790" alt="Pet Shop" title="Pet Shop"></a> 	
+								
+								
+					    </div>
+				   </div>
+				   
+				   <div class="featured">
+				        <ul>
+							<li><a href="index.php"><img src="images/organic-and-chemical-free.jpg" width="300" height="90" alt="Pet Shop" title="Pet Shop" ></a></li>
+							<li><a href="index.php"><img src="images/good-food.jpg" width="300" height="90" alt="Pet Shop" title="Pet Shop" ></a></li>
+							<li class="last"><a href="index.html"><img src="images/pet-grooming.jpg" width="300" height="90" alt="Pet Shop" title="Pet Shop" ></a></li>
+						</ul>
+				        
+				   </div>
+				  
+			
+			</div>
+			
+			<div id="footer">
+			        <div class="section">
+						<ul>
+							<li>
+								<img src="images/friendly-pets.jpg" width="240" height="186" alt="Pet Shop" title="Pet Shop">
+								<h2><a href="index.php">Friendly Pets</a></h2>
+								<p>
+								   Lorem ipsum dolor sit amet, consectetuer adepiscing elit,  sed diam nonummy nib. <a class="more" href="index.html">Read More</a> 
+								</p>
+							</li>	
+							<li>
+								<img src="images/pet-lover2.jpg" width="240" height="186" alt="Pet Shop" title="Pet Shop">
+								<h2><a href="index.php">How dangerous are they</a></h2>
+								<p>
+								   Lorem ipsum dolor sit amet, cons ectetuer adepis cing, sed diam euis. <a class="more" href="index.html">Read More</a> 
+								</p>
+							</li>	
+							<li>
+								<img src="images/healthy-dog.jpg" width="240" height="186" alt="Pet Shop" title="Pet Shop">
+								<h2><a href="index.php">Keep them healthy</a></h2>
+								<p>
+								   Lorem ipsum dolor sit amet, consectetuer adepiscing elit,  sed diam nonu mmy. <a class="more" href="index.html">Read More</a> 
+								</p>
+							</li>	
+							<li>
+								
+								<h2><a href="index.html">Love...love...love...pets</a></h2>
+								<p>
+								     Lorem ipsum dolor sit amet, consectetuer adepiscing elit,  sed diameusim. <a class="more" href="index.html">Read More</a> 
+								</p>
+								<img src="images/pet-lover.jpg" width="240" height="186" alt="Pet Shop" title="Pet Shop">
+							</li>	
+						</ul>
+					</div>
+					<div id="footnote">
+						<div class="section">
+						   &copy; 2011 <a href="index.html">Petshop</a>. All Rights Reserved.
+						</div>
+					</div>
+			</div>
+			
+	-->	
+</div>
+</body>
+</html>
