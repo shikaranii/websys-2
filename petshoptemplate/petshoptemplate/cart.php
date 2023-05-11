@@ -36,9 +36,20 @@
     	<div class="container">
                <div class="col-md-12">
                   <div class="titlepage">
-                     <h1>Your Cart</h1>
                   </div>
 				  <div class="section-title">
+ 
+   <!-- our protien  -->
+   <div id="flower" class="flower_main">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="titlepage">
+                     <h2>Cart</h2>
+                  </div>
+                  
+  
+  <div class="section-title">
   <?php
 			// Initialize cart array if not yet created
 			if (!isset($_COOKIE['cart'])) {
@@ -137,6 +148,7 @@
 			// Display cart table
 			$cart = isset($_COOKIE['cart']) ? unserialize($_COOKIE['cart']) : array(); // Check if the cart cookie is set
 			if (empty($cart)) {
+				echo "<br>";
 				echo '<p>Your cart is empty. Start shopping <a href="products.php">here</a>.</p>';
 			} else {
 				echo '<form method="post">';
@@ -188,6 +200,7 @@
 								}
 								echo '>' . $i . '</option>';
 							}
+
 							echo '</select>';
 							echo '</td>';
 							echo '<td>$' . number_format($subtotal, 2) . '</td>';
@@ -210,11 +223,19 @@
 			}
 
 			?>
-			</div>
-		</div>
-		</div>
-		</div>
-		</div>
-		</div>
+
+
+
+                                                      </div>
+               </div>
+            </div>
+
+         </div>
+      </div>
+
+    </div>
+ 
+ 
+ 
 </body>
 </html>
